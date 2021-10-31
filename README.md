@@ -66,7 +66,7 @@ When the training procedure is finished, run the command 'python3 testing.py' in
 **Step 3 - Prediction**
 -> Refer to section **Use pre-trained RiFNet**. Addtionally, select one of the 25 trained models *RiFNet_CV_m_run_n.h5*, rename the model to RiFNet.py and store it in the main folder.
 
-<img src="https://github.com/victorjonathanibanez/test/blob/main/graph_CV.pdf" alt="alt text" width="500" height="500">
+<img src="https://github.com/victorjonathanibanez/test/blob/main/graph_CV.png" alt="alt text" width="800" height="500">
 
 ## Parameters
 *default values:*
