@@ -68,6 +68,7 @@ When the training procedure is finished, run the command 'python3 testing.py' in
 
 
 Cross validation procedure:
+
 <img src="https://github.com/victorjonathanibanez/test/blob/main/graph_CV.png" alt="alt text" width="800" height="500">
 
 ## Parameters
