@@ -30,7 +30,7 @@ Example image:
 
 ## Use pre-trained RiFNet 
 
-If you wish to simply use RiFNet to predict on your PMCT images, we provide you with a pre-trained model *RiFNet.h5*. You only have to create a folder named *PMCT_images*, located in the same directory as the *prediction.py* code. The code will automatically rescale your 2D-images (**note:** your images have to be already pre-processed with the Syngo.via tool, refer to section **Preprocessing** - *Input Files*!) to the right size and subsequently create a folder *PMCT_predictions* to save images classified as *fractures* in one folder and images classified as *no fractures* in another folder. To start the prediction, change your directory to the location of the main folder in your terminal (command: 'cd *your main directory*') and subsequently run the command 'python3 prediction.py'.
+If you wish to simply use RiFNet to predict on your PMCT images, we can provide you with a pre-trained model *RiFNet.h5* (Section **Contact**). You only have to create a folder named *PMCT_images*, located in the same directory as the *prediction.py* code. The code will automatically rescale your 2D-images (**note:** your images have to be already pre-processed with the Syngo.via tool, refer to section **Preprocessing** - *Input Files*!) to the right size and subsequently create a folder *PMCT_predictions* to save images classified as *fractures* in one folder and images classified as *no fractures* in another folder. To start the prediction, change your directory to the location of the main folder in your terminal (command: 'cd *your main directory*') and subsequently run the command 'python3 prediction.py'.
 
 ## Train RiFNet on your own data
 
@@ -93,8 +93,8 @@ Cross validation procedure:
 - Filter size: *8, 16, 32, 64, 128*
 - Dense layer size: *500*
 
-## Problems
-When encountering issues:
+## Contact
+To receive the RiFNet.h5 file or when encountering issues:
 - Please refer to the publication -   DOI: [10.1007/s12024-021-00431-8](https://doi.org/10.1007/s12024-021-00431-8) and/or
 - Contact akos.dobay@uzh.ch or victor.ibanez@uzh.ch
 
