@@ -40,7 +40,7 @@ After preprocessing steps (see section **Preprocessing**), the images need to be
 **Step 2 - Training and Testing**
 
 Training:
-When your folder structure *raw_data* is ready with the appropriate images in the sub-folder, you can change the directory to the main folder in your terminal and then run the command 'python3 training.py'. The code will take your raw data and randomly splits it 5 times into training and testing data. In each iteration the training data will be split 5-fold into training and validation data to assess the performance (see fig. 1) for an overview on the cross validation procedure) of the model and creates folders and files as follows: 
+When your folder structure *raw_data* is ready with the appropriate images in the sub-folder, you can change the directory to the main folder in your terminal and then run the command 'python3 training.py'. The code will take your raw data and randomly splits it 5 times into training and testing data. In each iteration the training data will be split 5-fold into training and validation data to assess the performance (see figure below for an overview on the cross validation procedure) of the model and creates folders and files as follows: 
 
 
 | Folders | File/s | Description |
@@ -50,7 +50,7 @@ When your folder structure *raw_data* is ready with the appropriate images in th
 
 -> *m* denotes the number of training sessions and *n* the folds for each training iteration.
 
-\
+
 Testing:
 When the training procedure is finished, run the command 'python3 testing.py' in your terminal. This will validate all the models on the test compartiments. The code stores a text file under the main folder with prediction accuracy values, precision values, recall values and F1-score values for each of the 25 predictions as well as mean values and standard deviations of the entire process.
 
@@ -62,10 +62,12 @@ When the training procedure is finished, run the command 'python3 testing.py' in
 
 -> *m* denotes the number of training sessions
 
-\
+
 **Step 3 - Prediction**
 -> Refer to section **Use pre-trained RiFNet**. Addtionally, select one of the 25 trained models *RiFNet_CV_m_run_n.h5*, rename the model to RiFNet.py and store it in the main folder.
 
+
+Cross validation procedure:
 <img src="https://github.com/victorjonathanibanez/test/blob/main/graph_CV.png" alt="alt text" width="800" height="500">
 
 ## Parameters
