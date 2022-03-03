@@ -16,7 +16,7 @@ Required packages:
 
 **note:** *maybe additional missing packages are required!*
 
-We highly recommend to install all the requirements in a new conda environment! If this is not familiar to you, refer to https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+We highly recommend to install all the requirements in a new conda environment! If this is not familiar to you, refer to [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 ## Preprocessing
 
