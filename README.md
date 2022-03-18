@@ -96,7 +96,7 @@ Cross validation procedure:
 ## Contact
 To receive the RiFNet.h5 file or when encountering issues:
 - Please refer to the publication -   DOI: [10.1007/s12024-021-00431-8](https://doi.org/10.1007/s12024-021-00431-8) and/or
-- Contact akos.dobay@uzh.ch or victor.ibanez@uzh.ch
+- Contact victor.ibanez@uzh.ch or akos.dobay@uzh.ch
 
 ## Outlook
 
