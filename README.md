@@ -5,7 +5,7 @@ Imaging techniques are widely used for medical diagnostics. In some cases, a lac
 
 ## Installation
 
-The implemented code has been tested on the following operating system:
+The code has been tested on the following operating system:
 - Ubuntu 18.04.3 / MacOS Catalina 10.15.1
 
 Required packages:
